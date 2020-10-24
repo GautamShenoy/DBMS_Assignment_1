@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Sailor Entry</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h3 style = "color:red; text-align:right;">Gautam Shenoy</h3>
+            <br>
+            <br> 
+            <form action = "SailorInsert" method="POST" >
+                <table>
+                    <tr>
+                        <td>Sailor ID : </td>
+                        <td><input type="number" min = "0000" max="9999" name = "sailor_sid" placeholder="Enter SID "/></td>
+                    </tr>
+                    <tr>
+                        <td>Sailor Name : </td>
+                        <td><input type="text"  name = "sailor_name" placeholder="Enter Sailor Name "/></td>
+                    </tr>
+                    <tr>
+                        <td>Sailor Rating : </td>
+                        <td><input type="number" min = "0" max="10" name = "sailor_rating" placeholder="(0 - 10) "/></td>
+                    </tr>
+                    <tr>
+                        <td>Sailor Age : </td>
+                        <td><input type="number" min = "00" max="100" name = "sailor_age" placeholder="(0 - 100)"/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <br>
+                            <button type="submit">Insert</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
